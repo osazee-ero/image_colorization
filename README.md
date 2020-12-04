@@ -6,6 +6,8 @@ conda create --name virtual python=3.7
 conda activate virtual
 ```
 3. Install dependencies
+*. A NVIDIA® GPU card is needed check [CUDA® Enabled GPUs](https://developer.nvidia.com/cuda-gpus)
+*. For RTX 30 series cards, check [Build tensorflow from source](https://www.tensorflow.org/install/source) to install tensorflow for CUDA® 11.1
 ```sh
 pip install numpy pandas matplotlib scikit-image
 pip install opencv-python==3.4.11.41 opencv-contrib-python==3.4.11.41
